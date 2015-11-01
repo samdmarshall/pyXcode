@@ -7,3 +7,6 @@
 [submodule "pyXcode/Helpers/pyxcrunhelper"]
 	path = pyXcode/Helpers/pyxcrunhelper
 	url = git@github.com:samdmarshall/pyxcrunhelper.git
+[submodule "pyXcode/pyXCConfig"]
+	path = pyXcode/pyXCConfig
+	url = git@github.com:samdmarshall/pyXCConfig.git

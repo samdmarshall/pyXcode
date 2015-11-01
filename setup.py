@@ -9,7 +9,9 @@ setup(
     author_email='me@samdmarshall.com',
     license='BSD 3-Clause',
     package_data = {
-        
+        'pyXcode/pyXCConfig/xcconfig': [
+            '*.xcconfig',
+        ]
     },
     packages=[
         'pyXcode',
@@ -18,6 +20,8 @@ setup(
         'pyXcode/Helpers/pyxcrunHelper/xcrunHelper',
         'pyXcode/pbProj/pbProj',
         'pyXcode/pbProj/pbProj/pbPlist/pbPlist',
+        'pyXcode/pyXCConfig/xcconfig',
+        'pyXcode/pyXCConfig/xcconfig/pyxcrunhelper/xcrunHelper',
     ],
     zip_safe=False
 )
