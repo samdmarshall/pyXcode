@@ -4,3 +4,6 @@
 [submodule "pyXcode/pbProj"]
 	path = pyXcode/pbProj
 	url = git@github.com:samdmarshall/pbProj.git
+[submodule "pyXcode/Helpers/pyxcrunhelper"]
+	path = pyXcode/Helpers/pyxcrunhelper
+	url = git@github.com:samdmarshall/pyxcrunhelper.git

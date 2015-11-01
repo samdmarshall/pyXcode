@@ -15,6 +15,7 @@ setup(
         'pyXcode',
         'pyXcode/Helpers',
         'pyXcode/Helpers/pyLoggingHelper/Logger',
+        'pyXcode/Helpers/pyxcrunHelper/xcrunHelper',
         'pyXcode/pbProj/pbProj',
         'pyXcode/pbProj/pbProj/pbPlist/pbPlist',
     ],
