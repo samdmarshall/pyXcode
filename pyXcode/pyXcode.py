@@ -58,7 +58,7 @@ class xcparse(object):
         """
         project_schemes = list()
         if self.isValid():
-            project_schemes.extend([scheme for project in self.projects() for scheme in project.schemes()])
+            project_schemes.extend([scheme for project in self.projects() for scheme in project.schemes])
         return project_schemes
     
     def findSchemeWithName(self, scheme_name):
