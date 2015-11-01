@@ -13,3 +13,6 @@
 [submodule "pyXcode/pyxcscheme"]
 	path = pyXcode/pyxcscheme
 	url = git@github.com:samdmarshall/pyxcscheme.git
+[submodule "pyXcode/pyxcwsdata"]
+	path = pyXcode/pyxcwsdata
+	url = git@github.com:samdmarshall/pyxcwsdata.git

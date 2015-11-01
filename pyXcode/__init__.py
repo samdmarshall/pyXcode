@@ -10,3 +10,6 @@ else:
     os.environ['DEVELOPER_DIR'] = xcrun.resolve_developer_path()
 
 
+import pyXcode
+import xcodeproj
+import xcworkspace

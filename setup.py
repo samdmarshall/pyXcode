@@ -14,13 +14,20 @@ setup(
         ],
     },
     packages=[
-        'pyXcode',
-        'pyXcode/Helpers',
-        'pyXcode/Helpers/pyLoggingHelper/Logger',
-        'pyXcode/Helpers/pyxcrunHelper/xcrunHelper',
-        'pyXcode/pbProj/pbProj',
-        'pyXcode/pbProj/pbProj/pbPlist/pbPlist',
-        'pyXcode/pyXCConfig/xcconfig',
+        'pyXcode',                                      # root module
+        
+        'pyXcode/Helpers',                              # helper module (contains small modules used often)
+        'pyXcode/Helpers/pyLoggingHelper/Logger',       # logging utility
+        'pyXcode/Helpers/pyxcrunHelper/xcrunHelper',    # collection of methods for accessing xcrun
+        
+        'pyXcode/pbProj/pbProj',                        # pbxproj parser
+        'pyXcode/pbProj/pbProj/pbPlist/pbPlist',        # ascii plist parser
+        
+        'pyXcode/pyXCConfig/xcconfig',                  # xcconfig parser
+        
+        'pyXcode/pyxcscheme/pyxcscheme',                # xcscheme parser
+        
+        'pyXcode/pyxcwsdata/pyxcwsdata',                # xcworkspacedata parser
     ],
     zip_safe=False
 )
