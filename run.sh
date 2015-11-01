@@ -5,7 +5,7 @@ if [ "$1" == "clean" ]; then
 fi
 
 if [ "$1" == "build" ]; then
-	python setup.py --user
+	python setup.py install --user
 fi
 
 if [ "$1" == "update" ]; then

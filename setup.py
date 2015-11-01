@@ -11,7 +11,7 @@ setup(
     package_data = {
         'pyXcode/pyXCConfig/xcconfig': [
             '*.xcconfig',
-        ]
+        ],
     },
     packages=[
         'pyXcode',
@@ -21,7 +21,6 @@ setup(
         'pyXcode/pbProj/pbProj',
         'pyXcode/pbProj/pbProj/pbPlist/pbPlist',
         'pyXcode/pyXCConfig/xcconfig',
-        'pyXcode/pyXCConfig/xcconfig/pyxcrunhelper/xcrunHelper',
     ],
     zip_safe=False
 )

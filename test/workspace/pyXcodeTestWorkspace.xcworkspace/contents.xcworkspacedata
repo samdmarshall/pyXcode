@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "developer:"
+      name = "New Group">
+   </Group>
+   <FileRef
+      location = "group:ProjectWithApp+CLI+Framework/ProjectWithApp+CLI+Framework.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProjectWithBundleTarget/ProjectWithBundleTarget.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TopLevelEmptyFile">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Top Level Group">
+   </Group>
+</Workspace>
