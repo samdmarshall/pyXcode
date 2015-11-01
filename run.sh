@@ -15,3 +15,7 @@ fi
 if [ "$1" == "pull" ]; then
 	find . -name ".gitmodules" -print0 | xargs -0 ./pull.sh
 fi
+
+if [ "$1" == "cloc" ]; then
+	perl ~/.config/scripts/cloc.pl pyXcode/ --exclude-dir=tests --not-match-f=test_runner\.py
+fi
