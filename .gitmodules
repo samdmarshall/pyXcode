@@ -10,3 +10,6 @@
 [submodule "pyXcode/pyXCConfig"]
 	path = pyXcode/pyXCConfig
 	url = git@github.com:samdmarshall/pyXCConfig.git
+[submodule "pyXcode/pyxcscheme"]
+	path = pyXcode/pyxcscheme
+	url = git@github.com:samdmarshall/pyxcscheme.git
