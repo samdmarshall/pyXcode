@@ -11,3 +11,7 @@ fi
 if [ "$1" == "update" ]; then
 	git submodule update --init --recursive
 fi
+
+if [ "$1" == "pull" ]; then
+	find . -name ".gitmodules" -print0 | xargs -0 ./pull.sh
+fi
