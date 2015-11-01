@@ -1,0 +1,6 @@
+[submodule "pyXcode/Helpers/pyLoggingHelper"]
+	path = pyXcode/Helpers/pyLoggingHelper
+	url = git@github.com:samdmarshall/pyLoggingHelper.git
+[submodule "pyXcode/pbProj"]
+	path = pyXcode/pbProj
+	url = git@github.com:samdmarshall/pbProj.git

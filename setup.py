@@ -12,7 +12,11 @@ setup(
         
     },
     packages=[
-        
+        'pyXcode',
+        'pyXcode/Helpers',
+        'pyXcode/Helpers/pyLoggingHelper/Logger',
+        'pyXcode/pbProj/pbProj',
+        'pyXcode/pbProj/pbProj/pbPlist/pbPlist',
     ],
     zip_safe=False
 )
